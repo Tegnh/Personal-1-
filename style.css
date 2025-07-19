@@ -1,0 +1,108 @@
+
+.contact-logo {
+  text-align: center;
+  gap: 10px;
+
+}
+.hero-section{
+    background-color: #1B1A55;
+    padding: 100px 0;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fdfdfd; /* لون رمادي فاتح */
+}
+.card-section {
+    padding: 20px ;
+    background-color: #535C91; /* لون خلفية فاتح */
+    text-align: center;
+ 
+}
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* مسافة بين البطاقات */
+    background-color: #535C91; /* لون خلفية فاتح */
+    padding: 20px; /* مسافة داخلية */
+}
+.card {
+    background-color: #070F2B; /* لون خلفية داكن */
+    color: #fdfdfd; /* لون نص فاتح */
+    border: none; /* إزالة الحدود */
+    border-radius: 10px; /* زوايا مستديرة */
+    
+}
+.project-section {
+    padding: 100px 20px;
+    background-color: #9290C3; /* لون خلفية داكن */
+    color: #fdfdfd; /* لون نص فاتح */
+    text-align: center;
+    padding: 20px; /* مسافة داخلية */
+    
+ 
+}
+.card-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* مسافة بين البطاقات */
+    background-color: #9290C3; /* لون خلفية داكن */
+    padding: 20px; /* مسافة داخلية */
+
+}
+
+.certificates-section {
+    padding: 100px 20px; 
+    background-color: #535C91; /* لون خلفية داكن */
+    color: #fdfdfd; /* لون نص فاتح */
+    text-align: center;
+    padding: 20px; /* مسافة داخلية */
+    
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap; /* يسمح بتوزيع البطاقات في صفوف متعددة */
+    justify-content: center;
+    gap: 20px; /* مسافة بين البطاقات */
+    background-color: 535C91; /* لون خلفية داكن */
+    padding: 20px; /* مسافة داخلية */
+}
+.card:hover {
+    transform: scale(1.05); /* تكبير البطاقة عند التمرير */
+    transition: transform 0.3s ease; /* انتقال سلس */
+    
+}
+/* Gradient Background and Animation color 
+@keyframes bgColorChange {
+  0%   { background-color: #1B1A55; }
+  25%  { background-color: #535C91; }
+  50%  { background-color: #9290C3; }
+  75%  { background-color: #070F2B; }
+  100% { background-color: #1B1A55; }
+}
+.hero-section,
+.project-section {
+    animation: bgColorChange 10s infinite linear;
+}
+*/
+.footer-section{
+    background-color:#9290C3;
+    padding: 100px 20px;
+    padding:20px;
+  
+
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap; /* يسمح بتوزيع البطاقات في صفوف متعددة */
+    justify-content: center;
+    gap: 20px; /* مسافة بين البطاقات */
+    background-color: 535C91; /* لون خلفية داكن */
+    padding: 20px; /* مسافة داخلية */
+}
+
+
+
+  
